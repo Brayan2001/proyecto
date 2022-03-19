@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <title>Reloj del sueño</title>
+</head>
+<body>
+
+    <h1>¿A qué hora quiere levantarse?</h1>
+
+    <div class="cont-reloj">
+
+        <div class="botones-arriba">
+            <button class="boton-hora-arriba"><img src="wvector.png" width="16"></button>
+            <button class="boton-minuto-arriba"><img src="wvector.png" width="16"></button>
+            <button class="boton-am-pm-arriba"><img src="wvector.png" width="16"></button>
+        </div>
+
+        <div class="reloj">
+            <p id="horas" class="horas">01</p>
+            <p>:</p>
+            <p class="minutos">00</p>
+            <p class="am-pm">AM</p>
+        </div>
+        
+        <div class="botones-abajo">
+            <button class="boton-hora-abajo"><img src="wvector2.png" width="16"></button>
+            <button class="boton-minuto-abajo"><img src="wvector2.png" width="16"></button>
+            <button class="boton-am-pm-abajo"><img src="wvector2.png" width="16"></button>
+        </div>
+
+        <div class="cont-peticion">
+            <button class="peticion">Go</button>
+        </div>
+
+    </div>
+
+    <div class="cajas-recomendaciones">
+        <div id="cr" class="cont-reco1">
+            <div class="cr-1">Sueño Profundo</div>
+            <div class="cc1">- - : - -</div>
+        </div>
+        <div id="cr" class="cont-reco2">
+            <div class="cr-1">Sueño Profundo</div>
+            <div class="cc2">- - : - -</div>
+        </div>
+        <div id="cr" class="cont-reco3">
+            <div class="cr-1">Sueño Medio</div>
+            <div class="cc3">- - : - -</div>
+        </div>
+        <div id="cr" class="cont-reco4">
+            <div class="cr-1">Sueño Corto</div>
+            <div class="cc4">- - : - -</div>
+        </div>
+        <div id="cr" class="cont-reco5">
+            <div class="cr-1">Sueño Relámpago</div>
+            <div class="cc5">- - : - -</div>
+        </div>
+        <div id="cr" class="cont-reco6">
+            <div class="cr-1">Siesta</div>
+            <div class="cc6">- - : - -</div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
